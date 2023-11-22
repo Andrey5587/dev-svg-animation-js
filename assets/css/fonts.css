@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Newsreader';
+    src:
+        url('../fonts/Newsreader_60pt-ExtraLight.ttf') format('truetype'),
+        url('../fonts/Newsreader_60pt-ExtraLight.eot') format('eot'),
+        url('../fonts/Newsreader_60pt-ExtraLight.svg') format('svg'),
+        url('../fonts/Newsreader_60pt-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Newsreader_60pt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    src:
+        url('../fonts/Newsreader_60pt-Light.ttf') format('truetype'),
+        url('../fonts/Newsreader_60pt-Light.eot') format('eot'),
+        url('../fonts/Newsreader_60pt-Light.svg') format('svg'),
+        url('../fonts/Newsreader_60pt-Light.woff2') format('woff2'),
+        url('../fonts/Newsreader_60pt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    src:
+        url('../fonts/Newsreader_60pt-Regular.ttf') format('truetype'),
+        url('../fonts/Newsreader_60pt-Regular.eot') format('eot'),
+        url('../fonts/Newsreader_60pt-Regular.svg') format('svg'),
+        url('../fonts/Newsreader_60pt-Regular.woff2') format('woff2'),
+        url('../fonts/Newsreader_60pt-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    src:
+        url('../fonts/Newsreader_60pt-Medium.ttf') format('truetype'),
+        url('../fonts/Newsreader_60pt-Medium.eot') format('eot'),
+        url('../fonts/Newsreader_60pt-Medium.svg') format('svg'),
+        url('../fonts/Newsreader_60pt-Medium.woff2') format('woff2'),
+        url('../fonts/Newsreader_60pt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    src:
+        url('../fonts/Newsreader_60pt-SemiBold.ttf') format('truetype'),
+        url('../fonts/Newsreader_60pt-SemiBold.eot') format('eot'),
+        url('../fonts/Newsreader_60pt-SemiBold.svg') format('svg'),
+        url('../fonts/Newsreader_60pt-SemiBold.woff2') format('woff2'),
+        url('../fonts/Newsreader_60pt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src:
+        url('../fonts/ProximaNova-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src:
+        url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src:
+        url('../fonts/ProximaNova-Semibold.ttf') format('truetype');
+
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src:
+        url('../fonts/ProximaNova-Bjld.ttf') format('ttf');
+
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}

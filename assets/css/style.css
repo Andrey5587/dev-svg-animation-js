@@ -1,0 +1,29 @@
+@import 'fonts.css';
+@import 'global.css';
+
+
+.panel-wrapper,
+.panel-display {
+    border: 7px solid #78909C;
+    border-radius: 25px;
+    padding: 60px;
+}
+.panel-display {
+    margin-bottom: 35px;
+}
+.panel-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.svg-wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.animation-path.active,
+.btn.active {
+    background-color: #2962FF;
+    stroke: #2962FF;
+}
+

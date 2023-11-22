@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'ProximaNova';
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 12px;
+
+}
+.btn {
+    width: 100%;
+    padding: 20px;
+    font-size: 22px;
+}
+.btn:hover {
+    opacity: .7;
+}
+.btn-red {
+background-color: #F44336;
+}
+.btn-green {
+ background-color:  #76FF03;
+}
+.btn-yellow {
+    background-color: #FFFF00;
+}
