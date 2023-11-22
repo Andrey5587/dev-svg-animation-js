@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.space {
+    height: 100vh;
+}
+svg{
+    width: 100%;
+    height: auto;
+}
+
+.space-1{
+    background: url(../img/bg-space-1.png) right top / cover no-repeat;
+}
+.space-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/bg-cow.png) center / contain  no-repeat;
+    background-color:black;
+    
+}
+
+.ufo{
+    animation-name: ufo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.ufo-1{
+    offset-path: path("M303.846 94.0527C108.697 69.2634 13.3341 277.059 303.846 283.496C594.358 289.933 643.745 105.786 949.665 94.0527C1255.58 82.3191 1172.04 305.315 949.665 283.496C727.287 261.677 498.995 118.842 303.846 94.0527Z");
+    transform-origin: 170px 141px;
+}
+.ufo-2{
+    offset-path: path("M129.319 227.359C152.896 263.63 202.258 285.957 269.484 284.969C343.791 283.876 443.506 248.891 408.39 210.022C373.274 171.153 301.54 150.01 311.426 200.27C321.312 250.53 373.778 260.311 495.561 280.454C617.345 300.597 746.728 215.44 697.498 188.351C648.268 161.262 577.716 153.677 518.455 181.488C459.195 209.3 508.586 247.282 666.772 269.799C824.958 292.315 1034.23 217.762 932.362 181.488C871.536 159.828 775.583 165.596 749.24 181.488C722.897 197.381 735.439 217.065 890.972 237.472C1046.5 257.879 1200.33 183.765 1130.22 128.213C1075.24 84.6463 942.792 77.6011 890.972 122.434C830.41 174.83 1050.95 249.376 1130.22 206.049C1153.43 193.368 1160.63 182.603 1171.3 165.235C1228.36 72.3331 906.983 102.226 739.519 122.434C690.361 128.366 667.45 145.734 617.228 145.37C551.508 144.892 529.588 95.1711 465.462 103.472C420.718 109.264 417.917 139.323 373.274 145.37C303.737 154.789 277.223 79.3843 211.787 95.887C170.417 106.32 160.041 125.302 142.799 149.343C122.504 177.642 110.679 198.685 129.319 227.359Z");
+    transform-origin: 90px 73px;
+    transform: rotate(93deg);
+    animation-duration: 40s;
+}
+
+.ufo-3{
+    offset-path: path("M321.335 249.031C189.917 229.501 113.252 178.381 145.248 123.69C191.948 43.866 463.184 140.175 667.728 138.813C834.035 137.705 1017.07 64.1692 1091.97 123.69C1150.37 170.106 1157.64 250.915 996.254 279.783C874.262 301.604 851.188 247.216 655.385 258.252C510.991 266.39 458.053 269.348 321.335 249.031Z");
+    transform-origin: 79px 115px;
+    animation-duration: 20s;
+    transform: rotate(68deg);
+}
+
+@keyframes ufo{
+    0%{
+        offset-distance: 0;
+    }
+    100%{offset-distance: 100%;}
+}
+
+
+.cow{
+    max-width: 360px;
+    height: auto;
+    margin-top: 30%;
+    cursor: pointer;
+    
+}
+#header,.glasses {
+    transition: .7s;
+}
+#header:hover{
+    transform: rotate(5deg);
+}
+#header:hover .glasses{
+    transform: translate(10px, 10px);
+}
+.cow:hover path.cow__body{
+    fill: blueviolet;
+}
+.cow:hover .footer{
+    fill: rgb(226, 43, 70);
+}
+.cow:hover .glasses, .cow:hover .cow__body, .cow:hover .header{
+    animation: fill-color 4s infinite;
+}
+@keyframes fill-color{
+    0%{fill: rgb(242, 241, 220);}
+    25%{fill: rgb(249, 187, 117);}
+    50%{fill: rgb(239, 120, 99);}
+    75%{fill: rgb(245, 61, 33);}
+    100%{fill: rgb(237, 12, 12);}
+    
+}
